@@ -53,8 +53,6 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-npm-cache
       - name: Build with Hexo
-        run: hexo g
-      - name: Build with Hexo
         run: npm build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
