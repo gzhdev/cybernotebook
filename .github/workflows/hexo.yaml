@@ -40,7 +40,7 @@ jobs:
       #     source: ./
       #     destination: ./_site
       - name: Use Node.js 18.13.0
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: "18.13.0"
       - name: Install Dependencies
