@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: cybernotebook
+title: cybernotbook
 subtitle: ""
 description: ""
 keywords:
-author: John Doe
-language: en
-timezone: ""
+author: github/gzhdev
+language: zh-CN
+timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://gzhdev.github.io/cybernotebook/
+# url: http://localhost
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +106,10 @@ deploy:
   type: git
   repository: https://github.com/gzhdev/hexo-blog.git
   branch: public
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
