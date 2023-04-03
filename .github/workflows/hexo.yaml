@@ -46,7 +46,6 @@ jobs:
       - name: Add Gitalk Secret
         run: |
           sed -i '628 a\${{ secrets.GITALK_CLIENT_SECRET }}' ./themes/next/_config.yml
-          cat ./themes/next/_config.yml
       - name: Install Dependencies
         run: npm install
       - name: Cache NPM dependencies
