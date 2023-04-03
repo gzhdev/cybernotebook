@@ -625,8 +625,6 @@ gitalk:
   enable: true
   github_id: gzhdev # GitHub repo owner
   repo: cybernotebook # Repository name to store issues
-  client_id: 239c72319c9be5fd3663 # GitHub Application Client ID
-  client_secret: d53680b801af57f25e6f92a97c2bf6fb9c4e749d  # GitHub Application Client Secret
   admin_user: gzhdev # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment

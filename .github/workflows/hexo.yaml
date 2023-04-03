@@ -43,6 +43,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "18.13.0"
+      - name: Add Gitalk Secret
+        run: sed -i '627 a ${{ secrets.GITALK_TOKEN }}' ./themes/next/_config.yml
       - name: Install Dependencies
         run: npm install
       - name: Cache NPM dependencies
